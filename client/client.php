@@ -6,7 +6,10 @@
 	$url = 'http://localhost/git/apiziji/server/server.php';
 
 	$curl = new Curl\Curl();
-	$curl->get($url);
+	$curl->post($url, array(
+	    'username'=>'lishasha',
+	    'password'=>'123'
+	));
 
 	if ($curl->error) {
 	    echo $curl->error_code;
