@@ -1,7 +1,13 @@
 <?php
 	error_reporting('E_ALL & ~E_NOTICE');
+
 	//接收请求 响应数据 json
 	// var_dump($_POST);exit;
+
+	// 定义秘钥
+	define('Token','test');
+	// echo $_GTE['sing'];
+	include './checksing.php';
 
 	//业务逻辑异常
 	try{
