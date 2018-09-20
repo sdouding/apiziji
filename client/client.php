@@ -11,6 +11,7 @@
 
 	//请求的api地址
 	$url = 'http://localhost/git/apiziji/server/server.php?sing='.$sing;
+	echo $url;exit;
 
 	$curl = new Curl\Curl();
 	$curl->post($url, array(
