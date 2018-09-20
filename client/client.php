@@ -2,7 +2,7 @@
 	
 	include './vendor/autoload.php';
 	include 'setsing.php';
-phpinfo();exit;
+// phpinfo();exit;
 	//定义秘钥
 	$token = 'test';
 	//生成一个加密签名
